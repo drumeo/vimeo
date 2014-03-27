@@ -1,0 +1,23 @@
+{
+    "name": "drumeo/vimeo",
+    "type": "library",
+    "description": "Composer wrapper for Vimeo PHP library",
+    "keywords": ["youtube", "vimeo", "video", "videos"],
+    "homepage": "https://github.com/duct/vimeo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kenton Hirowatari",
+            "email": "kenton@drumeo.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "VimeoApiV3\\Vimeo" : "src/",
+            "VimeoApiV2\\Vimeo" : "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.2"
+    }
+}
