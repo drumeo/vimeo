@@ -544,7 +544,7 @@ class Vimeo
     public static function url_encode_rfc3986($input)
     {
         if (is_array($input)) {
-            return array_map(array('Dukt\Vimeo', 'url_encode_rfc3986'), $input);
+            return array_map(array('VimeoApiV2\Vimeo', 'url_encode_rfc3986'), $input);
         }
         else if (is_scalar($input)) {
             return str_replace(array('+', '%7E'), array(' ', '~'), rawurlencode($input));
