@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Composer wrapper for Vimeo PHP library",
     "keywords": ["youtube", "vimeo", "video", "videos"],
-    "homepage": "https://github.com/duct/vimeo",
+    "homepage": "https://github.com/drumeo/vimeo",
     "license": "MIT",
     "authors": [
         {
